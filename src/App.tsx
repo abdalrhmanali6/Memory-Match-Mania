@@ -80,16 +80,7 @@ function App() {
     resetTimer()
     setStart(false)
    }
-   const CreateGrid=()=>{
-    const grid=[]
-    for(let i=0;i<deck.length;i+=gridSize){
-      const row=deck.slice(i,i+gridSize)
-      grid.push(row)
 
-    }
-
-    return grid
-   }
 
   return (
      <div className="flex box-border flex-col items-center justify-center h-screen w-screen gap-3 p-6 overflow-hidden" >
